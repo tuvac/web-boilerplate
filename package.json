@@ -1,0 +1,28 @@
+{
+  "name": "single-page-demo",
+  "version": "1.0.0",
+  "description": "A Single Page App Demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crossroads": "^0.12.2",
+    "handlebars": "^4.0.5",
+    "hasher": "^1.2.0",
+    "sizzle": "^2.3.3"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browserify": "^5.0.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-handlebars": "^1.0.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-less": "^1.4.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "local-web-server": "^1.2.6"
+  }
+}

@@ -1,0 +1,25 @@
+@footerHeight: 100px;
+
+html, body {
+	height: 100%;
+}
+
+#wrap {
+    height: auto !important;
+    min-height: 100%;
+    margin: 0 auto -@footerHeight auto;
+}
+
+header {
+	padding: 20px 0;
+}
+
+#push {
+    height: @footerHeight;
+}
+
+footer {
+    height: @footerHeight;
+    background: #222;
+    margin-top: 40px
+}
